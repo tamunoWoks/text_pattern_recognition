@@ -35,3 +35,13 @@ The regex pattern `\d{3}-\d{3}-\d{4}` looks for:
 1. Compile the regex pattern using re.compile().
 2. Use .findall() to return all matches in the text.
 3. Print each phone number found.
+---
+### Comparison:
+| Feature           | `isPhoneNumber.py`                 | `isPhoneNumber2.py`                    |
+| ----------------- | ---------------------------------- | -------------------------------------- |
+| **Method**        | Manual character checking          | Regular expressions (`re` module)      |
+| **Speed**         | Slower for long texts              | Much faster and more concise           |
+| **Code Length**   | Long and detailed                  | Short and powerful                     |
+| **Readability**   | Beginner-friendly                  | Intermediate-level                     |
+| **Best Use Case** | Teaching logic and string handling | Real-world text parsing and automation |
+
