@@ -30,3 +30,8 @@ The regex pattern `\d{3}-\d{3}-\d{4}` looks for:
 - Three more digits
 - Another dash
 - Four digits
+
+### Logic Flow:
+1. Compile the regex pattern using re.compile().
+2. Use .findall() to return all matches in the text.
+3. Print each phone number found.
