@@ -5,5 +5,7 @@ This project demonstrates two ways to identify and extract phone numbers in text
 2. **`isPhoneNumber2.py`** – A regex-based implementation using Python’s built-in `re` module for faster and more concise pattern matching.
 
 ### Overview:
-Both scripts are designed to detect phone numbers written in the standard **U.S. format**:
+Both scripts are designed to detect phone numbers written in the standard **U.S. format**: For example: `415-555-1011` or `212-999-8888`.
+
+
 
