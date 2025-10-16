@@ -45,3 +45,7 @@ The regex pattern `\d{3}-\d{3}-\d{4}` looks for:
 | **Readability**   | Beginner-friendly                  | Intermediate-level                     |
 | **Best Use Case** | Teaching logic and string handling | Real-world text parsing and automation |
 
+### Key Takeaways
+- Manual checking teaches the logic behind pattern validation.
+- Regex simplifies the same task using compact, reusable patterns.
+- Both approaches are valuable for learning and can be adapted for more complex data formats (emails, dates, URLs, etc.).
