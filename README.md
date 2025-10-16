@@ -20,3 +20,13 @@ It ensures that:
 2. Extract a **12-character segment** at each step.
 3. Pass that segment into the `isPhoneNumber()` function.
 4. If it matches the phone number pattern, print it.
+
+## 2. isPhoneNumber2.py – Regular Expression Version
+### Description:
+This version uses the `re` (Regular Expression) module to search for phone numbers much more efficiently.
+The regex pattern `\d{3}-\d{3}-\d{4}` looks for:
+- Three digits (\d{3})
+- A dash
+- Three more digits
+- Another dash
+- Four digits
